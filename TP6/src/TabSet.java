@@ -7,7 +7,7 @@ public class TabSet implements Set {
         this.tab = new int[len];
         boolean dedans = false;
 
-        for (int i=0;i<len;i++){ // len ?
+        for (int i=0;i<len;i++){
             for (int j=0;j<size;j++){
                 if (nbs[i] == this.tab[j]){
                     dedans = true;
